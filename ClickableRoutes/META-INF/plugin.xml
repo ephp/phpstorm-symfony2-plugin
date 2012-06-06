@@ -1,12 +1,7 @@
 <idea-plugin version="2">
-    <name>Symfony2 - Clickable Views</name>
+    <name>Clickable Routes</name>
     <description><![CDATA[
-            <p>Resolves on CTRL+Click the corresponding twig template in your Symfony2 project.</p>
-            <p>This plugin demands a projectstructure which you can find in the Symfony2 Std. Edition and
-            will not work with custom layouts.</p>
-            <p>Please note, that app-level overrides are not yet discovered (like ::layout.html.twig), but
-            AcmeBundle::layout.html.twig should work fine.</p>
-            <p>Please reports bugs on <a href="https://github.com/xenji/phpstorm-symfony2-plugin/issues">GitHub</a></p>
+            <p>Make routes clickable in Twig templates and in Controller url calls.</p>
             ]]></description>
     <version>0.1</version>
     <vendor
@@ -33,6 +28,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <psi.referenceContributor
-                implementation="com.xenji.php.symfony2.clickableviews.TwigViewPsiRerferenceContributor"/>
+                implementation="com.xenji.php.symfony2.clickableroutes.RoutePsiReferenceContributor"/>
     </extensions>
 </idea-plugin>
