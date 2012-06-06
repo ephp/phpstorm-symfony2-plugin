@@ -9,9 +9,11 @@ import com.intellij.psi.PsiFile;
 import com.intellij.psi.PsiReference;
 import com.intellij.psi.search.FilenameIndex;
 import com.intellij.psi.search.ProjectScope;
+import com.intellij.util.ArrayUtil;
 import com.intellij.util.IncorrectOperationException;
 import com.jetbrains.php.lang.psi.elements.StringLiteralExpression;
 import com.jetbrains.php.lang.psi.elements.impl.StringLiteralExpressionImpl;
+import com.jetbrains.twig.TwigFile;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -39,6 +41,9 @@ public class TwigViewPsiReference implements PsiReference {
      */
     private String cleanString;
 
+
+    private TextRange textRange;
+
     /**
      *
      * @param templateString
@@ -48,6 +53,7 @@ public class TwigViewPsiReference implements PsiReference {
         this.templateString = templateString;
         this.project = project;
         cleanString = templateString.getText().replace("\"", "").replace("'", "");
+        textRange = new TextRange(1, templateString.getTextLength() - 1);
     }
 
     /**
@@ -65,7 +71,7 @@ public class TwigViewPsiReference implements PsiReference {
      */
     @Override
     public TextRange getRangeInElement() {
-        return this.templateString.getTextRange();
+        return textRange;
     }
 
     /**
@@ -84,19 +90,30 @@ public class TwigViewPsiReference implements PsiReference {
         final String filename = base + ".php";
         PsiFile[] filesByName = FilenameIndex.getFilesByName(project, filename, ProjectScope.getProjectScope(project));
 
-        if (filesByName.length < 1) {
-            // We cannot resolve properly. Maybe we can guess in some later version.
+        if (filesByName.length == 0) {
             return null;
         }
 
         PsiFile bundleFile = filesByName[0];
-        PsiDirectory bundleDir = bundleFile.getContainingDirectory();
 
-        //@TODO check for NPEs
-        PsiDirectory resourcesDir = bundleDir.findSubdirectory("Resources");
-        PsiDirectory viewsDir = resourcesDir.findSubdirectory("views");
-        PsiDirectory ctlDir = viewsDir.findSubdirectory(ctrl);
-        return ctlDir.findFile(viewFileName);
+        try {
+            PsiDirectory bundleDir = bundleFile.getContainingDirectory();
+            PsiDirectory resourcesDir = bundleDir.findSubdirectory("Resources");
+            PsiDirectory viewsDir = resourcesDir.findSubdirectory("views");
+
+            if (!ctrl.equals(""))
+            {
+                PsiDirectory ctlDir = viewsDir.findSubdirectory(ctrl);
+                return ctlDir.findFile(viewFileName);
+            }
+            else
+            {
+                return viewsDir.findFile(viewFileName);
+            }
+
+        } catch (NullPointerException npe) {
+            return null;
+        }
     }
 
     /**
@@ -135,7 +152,7 @@ public class TwigViewPsiReference implements PsiReference {
 
     @Override
     public boolean isReferenceTo(PsiElement element) {
-        if (element.getClass().equals(PsiFile.class)) {
+        if (element.getClass().equals(TwigFile.class)) {
             PsiFile templateFile = (PsiFile) element;
             // Controller Dir?
             String ctlDir = templateFile.getParent().getName();
@@ -150,7 +167,7 @@ public class TwigViewPsiReference implements PsiReference {
     @NotNull
     @Override
     public Object[] getVariants() {
-        return new Object[0];
+        return ArrayUtil.EMPTY_OBJECT_ARRAY;
     }
 
     @Override
