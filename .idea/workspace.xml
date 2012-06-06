@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a5c6fc2a-9658-490a-8480-541462a87a22" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ClickableViews/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClickableViews/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/ClickableViews/META-INF/plugin.xml" />
     </list>
     <ignored path="Symfony2 Integration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -193,7 +195,7 @@
       <file leaf-file-name="plugin.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClickableViews/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="936" selection-end="936" vertical-scroll-proportion="0.71428573">
+            <state line="19" column="37" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.9047619">
               <folding />
             </state>
           </provider>
@@ -893,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClickableViews/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="936" selection-end="936" vertical-scroll-proportion="0.71428573">
+        <state line="19" column="37" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.9047619">
           <folding />
         </state>
       </provider>

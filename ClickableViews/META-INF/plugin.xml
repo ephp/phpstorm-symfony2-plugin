@@ -9,15 +9,15 @@
             <p>Please reports bugs on <a href="https://github.com/xenji/phpstorm-symfony2-plugin/issues">GitHub</a></p>
             ]]></description>
     <version>0.1</version>
+
     <vendor
             email="mario+s2plugin@xenji.com"
             url="http://xenji.github.com/phpstorm-symfony2-plugin/">Mario Mueller / xenji.com</vendor>
     <depends>com.jetbrains.php</depends>
-    <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.lang</depends>
 
     <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="107.105"/>
+    <idea-version since-build="117.0"/>
 
     <application-components>
         <!-- Add your application components here -->
