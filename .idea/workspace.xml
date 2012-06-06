@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c6fc2a-9658-490a-8480-541462a87a22" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Services/src/com/xenji/php/symfony2/services/parser/Finder.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ClickableViews/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference.java" afterPath="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReferenceProvider.java" afterPath="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReferenceProvider.java" />
     </list>
     <ignored path="Symfony2 Integration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,9 +99,7 @@
         <entry file="file://$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiRerferenceContributor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="0" selection-start="356" selection-end="483" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,9 +107,48 @@
       <file leaf-file-name="TwigViewPsiReferenceProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReferenceProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="323" selection-end="447" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceXmlParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/src/com/xenji/php/symfony2/services/parser/ServiceXmlParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Finder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/src/com/xenji/php/symfony2/services/parser/Finder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="6" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlFileType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/xml/impl/src/com/intellij/ide/highlighter/XmlFileType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-api/src/com/intellij/openapi/fileTypes/FileType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="17" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#2706#0" expanded="false" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,10 +157,8 @@
       <file leaf-file-name="TwigViewPsiReference.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="55" selection-start="3701" selection-end="3701" vertical-scroll-proportion="-0.35897437">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="160" column="0" selection-start="5078" selection-end="5078" vertical-scroll-proportion="1.6177474">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +190,7 @@
         <option value="$PROJECT_DIR$/ClickableViews/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiRerferenceContributor.java" />
         <option value="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReferenceProvider.java" />
+        <option value="$PROJECT_DIR$/Services/src/com/xenji/php/symfony2/services/parser/Finder.java" />
         <option value="$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference.java" />
       </list>
     </option>
@@ -211,12 +248,104 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Symfony2 Integration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony2 Integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony2 Integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xenji" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony2 Integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xenji" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -275,16 +404,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -495,14 +614,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5592949" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43429488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.498394" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
@@ -511,10 +629,11 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1719697" sideWeight="0.60096157" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32348484" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3219697" sideWeight="0.5657051" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.67070484" order="6" side_tool="false" content_ui="tabs" />
@@ -580,113 +699,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/lang-impl/src/com/intellij/ide/util/gotoByName/DefaultFileNavigationContributor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="138" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-api/src/com/intellij/openapi/vfs/VirtualFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="21" selection-start="9873" selection-end="9873" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-impl/src/com/intellij/psi/impl/file/PsiDirectoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="39" selection-start="6421" selection-end="6421" vertical-scroll-proportion="0.41025642">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-api/src/com/intellij/psi/PsiDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="13" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/lang-impl/src/com/intellij/psi/search/FilenameIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.18890814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Apps/PhpStorm-117.501/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/elements/impl/StringLiteralExpressionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="43" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="43" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-impl/src/com/intellij/psi/impl/source/resolve/reference/ReferenceProvidersRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="49" column="0" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/lang-impl/src/com/intellij/codeInsight/TargetElementUtilBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="97" column="0" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/lang-impl/src/com/intellij/psi/impl/source/resolve/reference/ReferenceProvidersRegistryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="4769" selection-end="4769" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="105" column="0" selection-start="4769" selection-end="4769" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-impl/src/com/intellij/psi/impl/SharedPsiElementImplUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2148" selection-end="2148" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="e#1899#1913#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="54" column="0" selection-start="2148" selection-end="2148" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/lang-impl/src/com/intellij/psi/MultiplePsiFilesPerDocumentFileViewProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="0" selection-start="5938" selection-end="5938" vertical-scroll-proportion="0.6666667">
-          <folding />
-        </state>
+        <state line="172" column="0" selection-start="5938" selection-end="5938" vertical-scroll-proportion="0.6666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-impl/src/com/intellij/psi/impl/source/PsiFileImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="551" column="0" selection-start="18677" selection-end="18677" vertical-scroll-proportion="0.30084747">
-          <folding>
-            <element signature="e#3318#3328#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="551" column="0" selection-start="18677" selection-end="18677" vertical-scroll-proportion="0.30084747" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-api/src/com/intellij/psi/PsiReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="1619" selection-end="1619" vertical-scroll-proportion="-1.458194">
-          <folding />
-        </state>
+        <state line="37" column="17" selection-start="1619" selection-end="1619" vertical-scroll-proportion="-1.458194" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiRerferenceContributor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="356" selection-end="483" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="0" selection-start="356" selection-end="483" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReferenceProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="323" selection-end="447" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/src/com/xenji/php/symfony2/services/parser/ServiceXmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Apps/PhpStorm-117.501/lib/webide.jar!/org/apache/tools/ant/types/EnumeratedAttribute.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="65" selection-start="445" selection-end="445" vertical-scroll-proportion="0.31914893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/platform/core-api/src/com/intellij/openapi/fileTypes/FileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="17" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#2706#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jetbrains/idea/xml/impl/src/com/intellij/ide/highlighter/XmlFileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/src/com/xenji/php/symfony2/services/parser/Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="6" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -695,10 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClickableViews/src/com/xenji/php/symfony2/clickableviews/TwigViewPsiReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="55" selection-start="3701" selection-end="3701" vertical-scroll-proportion="-0.35897437">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="160" column="0" selection-start="5078" selection-end="5078" vertical-scroll-proportion="1.6177474">
+          <folding />
         </state>
       </provider>
     </entry>

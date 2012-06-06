@@ -34,11 +34,6 @@ public class TwigViewPsiReference implements PsiReference {
     private Project project;
 
     /**
-     * the resolved file, which is to be cached in here.
-     */
-    private PsiFile resolvedFile;
-
-    /**
      * Lazy cache for a cleaned string - which means a string without
      * quotations.
      */
@@ -80,10 +75,6 @@ public class TwigViewPsiReference implements PsiReference {
     @Override
     public PsiElement resolve() {
 
-        if (resolvedFile != null) {
-            return resolvedFile;
-        }
-
         final String[] pathElements = cleanString.split(":");
 
         String base = pathElements[0];
@@ -105,8 +96,7 @@ public class TwigViewPsiReference implements PsiReference {
         PsiDirectory resourcesDir = bundleDir.findSubdirectory("Resources");
         PsiDirectory viewsDir = resourcesDir.findSubdirectory("views");
         PsiDirectory ctlDir = viewsDir.findSubdirectory(ctrl);
-        resolvedFile = ctlDir.findFile(viewFileName);
-        return resolvedFile;
+        return ctlDir.findFile(viewFileName);
     }
 
     /**
@@ -140,8 +130,7 @@ public class TwigViewPsiReference implements PsiReference {
 
     @Override
     public PsiElement bindToElement(@NotNull PsiElement element) throws IncorrectOperationException {
-        this.resolvedFile = (PsiFile) element;
-        return this.resolvedFile;
+        return resolve();
     }
 
     @Override
