@@ -11,6 +11,7 @@ public class RoutePsiReferenceProvider extends PsiReferenceProvider {
     @NotNull
     @Override
     public PsiReference[] getReferencesByElement(@NotNull PsiElement element, @NotNull ProcessingContext context) {
+
         return new PsiReference[0];
     }
 }
