@@ -3,7 +3,7 @@
     <description><![CDATA[
             <p>Make routes clickable in Twig templates and in Controller url calls.</p>
             ]]></description>
-    <version>0.1</version>
+    <version>0.1.1</version>
     <vendor
             email="mario+s2plugin@xenji.com"
             url="http://xenji.github.com/phpstorm-symfony2-plugin/">Mario Mueller / xenji.com</vendor>

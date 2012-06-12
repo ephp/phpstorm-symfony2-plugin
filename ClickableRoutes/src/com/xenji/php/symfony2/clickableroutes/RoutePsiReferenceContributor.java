@@ -8,6 +8,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiReferenceContributor;
 import com.intellij.psi.PsiReferenceRegistrar;
 import com.intellij.psi.templateLanguages.OuterLanguageElement;
+import com.intellij.psi.tree.IElementType;
 import com.jetbrains.php.lang.psi.elements.StringLiteralExpression;
 import com.jetbrains.twig.*;
 
@@ -21,22 +22,11 @@ public class RoutePsiReferenceContributor extends PsiReferenceContributor {
     @Override
     public void registerReferenceProviders(PsiReferenceRegistrar registrar) {
 
-
-        PsiElementPattern.Capture<PsiElement> psiElementCapture = PlatformPatterns.psiElement(TwigTokenTypes.IDENTIFIER);
-                /*
-                .afterSiblingSkipping(
-                        PlatformPatterns.or(
-                                PlatformPatterns.psiElement(TwigTokenTypes.SINGLE_QUOTE),
-                                PlatformPatterns.psiElement(TwigTokenTypes.DOUBLE_QUOTE)),
-
-                        PlatformPatterns.psiElement(TwigTokenTypes.LBRACE)
-                        .afterSibling(
-                                PlatformPatterns.psiElement(TwigTokenTypes.IDENTIFIER)
-                                        .withText(StandardPatterns.string().equalTo("path"))
-                        )
-
-                )*/;
+/*
+        PsiElementPattern.Capture<PsiElement> psiElementCapture = PlatformPatterns
+                .psiElement().oneOf();
 
         registrar.registerReferenceProvider(psiElementCapture, new RoutePsiReferenceProvider(),PsiReferenceRegistrar.DEFAULT_PRIORITY);
+        */
     }
 }
