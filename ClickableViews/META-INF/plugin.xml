@@ -33,6 +33,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <psi.referenceContributor
-                implementation="com.xenji.php.symfony2.clickableviews.TwigViewPsiRerferenceContributor"/>
+                implementation="com.xenji.php.symfony2.clickableviews.TwigViewPsiReferenceContributor"/>
     </extensions>
 </idea-plugin>

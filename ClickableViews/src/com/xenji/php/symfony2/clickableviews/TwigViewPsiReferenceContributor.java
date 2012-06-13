@@ -14,7 +14,7 @@ import com.jetbrains.php.lang.psi.elements.StringLiteralExpression;
  * @author Mario Mueller mario@xenji.com
  * @license MIT
  */
-public class TwigViewPsiRerferenceContributor extends PsiReferenceContributor {
+public class TwigViewPsiReferenceContributor extends PsiReferenceContributor {
 
     /**
      * Registers the reference provider for any string in php files that match the regex for
