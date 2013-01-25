@@ -12,7 +12,7 @@
     <depends>com.intellij.modules.lang</depends>
 
     <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="107.105"/>
+    <idea-version since-build="117"/>
 
     <application-components>
         <!-- Add your application components here -->
