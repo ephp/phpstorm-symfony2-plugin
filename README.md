@@ -1,3 +1,9 @@
+# ATTENTION:
+
+This plugin is abandonware. I do not have the time to maintain it any longer. If you want to take it and you are serious with it I add your jetbrains account as a developer on plugins.jetbrains.com.
+
+Contact me via mail: mario `a.t.` xenji `d.o.t.` com
+
 # PHPStorm Symfony2 Plugins
 
 ## Synopsis
